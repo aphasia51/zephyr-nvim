@@ -270,7 +270,7 @@ local plugin_syntax = {
 	LspReferenceWrite = { bg = z.bg_highlight, bold = true },
 
 	DiagnosticVirtualTextError = { fg = z.red },
-	DiagnosticVirtualTextWarn = { fg = z.yellow },
+	DiagnosticVirtualTextWarn = { fg = z.orange },
 	DiagnosticVirtualTextInfo = { fg = z.blue },
 	DiagnosticVirtualTextHint = { fg = z.cyan },
 
@@ -280,6 +280,7 @@ local plugin_syntax = {
 	DiagnosticUnderlineHint = { undercurl = true, sp = z.cyan },
 
   DiagnosticError = { fg = "#CB4335" },
+  DiagnosticWarn = { fg = z.orange },
 
 	-- nvim-cmp
 	CmpItemAbbr = { fg = z.fg },
