@@ -19,9 +19,6 @@ local z = {
 	overlay2 = "#949cbb",
 	overlay1 = "#838ba7",
 	overlay0 = "#737994",
-	surface2 = "#626880",
-	surface1 = "#51576d",
-	surface0 = "#414559",
 
 	bg = "#262a33",
 	bg1 = "#504945",
@@ -32,6 +29,7 @@ local z = {
 	fg = "#bbc2cf",
 	fg_alt = "#5B6268",
 
+  red = "#e95678",
 	redwine = "#d16d9e",
 	orange = "#FF8700",
 	yellow = "#f7bb3b",
@@ -271,7 +269,7 @@ local plugin_syntax = {
 	LspReferenceText = { bg = z.bg_highlight, bold = true },
 	LspReferenceWrite = { bg = z.bg_highlight, bold = true },
 
-	DiagnosticVirtualTextError = { fg = z.green },
+	DiagnosticVirtualTextError = { fg = z.red },
 	DiagnosticVirtualTextWarn = { fg = z.yellow },
 	DiagnosticVirtualTextInfo = { fg = z.blue },
 	DiagnosticVirtualTextHint = { fg = z.cyan },
@@ -281,7 +279,7 @@ local plugin_syntax = {
 	DiagnosticUnderlineInfo = { undercurl = true, sp = z.blue },
 	DiagnosticUnderlineHint = { undercurl = true, sp = z.cyan },
 
-  DiagnosticError = { fg = "#D54E53" },
+  DiagnosticError = { fg = "#CB4335" },
 
 	-- nvim-cmp
 	CmpItemAbbr = { fg = z.fg },
