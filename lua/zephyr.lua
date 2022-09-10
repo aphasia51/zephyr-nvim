@@ -263,7 +263,7 @@ local plugin_syntax = {
 	TelescopeResultsTitle = { fg = "#8bba7f" },
 	TelescopeResultsBorder = { fg = "#16A085" },
 	TelescopeMatching = { fg = "#F39C12" },
-	TelescopeSelection = { fg = "#ffffff" },
+  TelescopeSelection = { fg = z.orange, bg = z.bg_highlight, bold = true },
 
 	LspReferenceRead = { bg = z.bg_highlight, bold = true },
 	LspReferenceText = { bg = z.bg_highlight, bold = true },
