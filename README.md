@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.staticaly.com/gh/aphasia51/images@main/blog/zephyr.png"
+  <img src="https://github.com/aphasia51/images/blob/main/blog/zephyr.png?raw=true"
   height = "40%"
   widht = "40%"
   />
