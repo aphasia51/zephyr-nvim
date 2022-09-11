@@ -118,6 +118,7 @@ local syntax = {
 	StatusLineNC = { fg = z.grey, bg = z.base2 },
 	Question = { fg = z.yellow },
 	NormalFloat = { fg = z.base8, bg = z.bg_highlight },
+  FloatBorder = { fg = z.blue },
 	Tabline = { fg = z.base6, bg = z.base2 },
 	TabLineSel = { fg = z.fg, bg = z.blue },
 	SpellBad = { fg = z.red, bg = z.none, undercurl = true },
@@ -286,8 +287,12 @@ local plugin_syntax = {
 	CmpItemAbbr = { fg = z.fg },
 	CmpItemKind = { fg = z.blue },
 	CmpItemMenu = { fg = z.violet },
+	CmpPmenuBorder = { fg = z.blue },
 	CmpItemAbbrMatch = { fg = "#A6E22E" },
 	CmpItemAbbrMatchFuzzy = { fg = z.text },
+
+  CmpDocumentation = { fg = z.blue, bg = z.bg_highlight },
+  CmpDocumentationBorder = { fg = z.orange },
 
 	-- kind support
 	CmpItemKindSnippet = { fg = z.mauve },
