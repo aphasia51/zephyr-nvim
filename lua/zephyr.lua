@@ -119,6 +119,7 @@ local syntax = {
 	Question = { fg = z.yellow },
 	NormalFloat = { fg = z.base8, bg = z.bg_highlight },
   FloatBorder = { fg = z.magenta },
+  DefinitionBorder = { fg = z.green },
 	Tabline = { fg = z.base6, bg = z.base2 },
 	TabLineSel = { fg = z.fg, bg = z.blue },
 	SpellBad = { fg = z.red, bg = z.none, undercurl = true },
