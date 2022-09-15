@@ -116,6 +116,7 @@ local syntax = {
 	WildMenu = { fg = z.bg1, bg = z.green },
 	StatusLine = { fg = z.base8, bg = z.base2 },
 	StatusLineNC = { fg = z.grey, bg = z.base2 },
+	WinSeparator = { fg = z.orange, bg = z.bg },
 	Question = { fg = z.yellow },
 	NormalFloat = { fg = z.base8, bg = z.bg_highlight },
   FloatBorder = { fg = z.magenta },
