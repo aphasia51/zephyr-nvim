@@ -178,13 +178,13 @@ local syntax = {
 }
 
 local plugin_syntax = {
-  TSFunction = { fg = z.cyan },
-  TSMethod = { fg = z.cyan },
-  TSKeywordFunction = { fg = z.red },
-  TSProperty = { fg = z.yellow },
-  TSType = { fg = z.teal },
-  TSVariable = { fg = "#f2f2bf" },
-  TSPunctBracket = { fg = z.bracket },
+  ["@function"] = { fg = z.cyan },
+  ["@method"] = { fg = z.cyan },
+  ["@keyword.function"] = { fg = z.red },
+  ["@property"] = { fg = z.yellow },
+  ["@type"] = { fg = z.teal },
+  ["@variable"] = { fg = "#f2f2bf" },
+  ["@punctuation.bracket"] = { fg = z.bracket },
 
   vimCommentTitle = { fg = z.grey, bold = true },
   vimLet = { fg = z.orange },
