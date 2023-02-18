@@ -331,6 +331,9 @@ local plugin_syntax = {
   NeogitDiffContextHighlight = { fg = z.blue },
   NeogitHunkHeader = { fg = z.fg },
   NeogitHunkHeaderHighlight = { fg = z.redwine },
+
+  --Noice
+  NoiceCmdlinePopupBorder = { fg = z.green },
 }
 
 local async_load_plugin
