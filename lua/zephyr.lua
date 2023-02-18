@@ -333,8 +333,7 @@ local plugin_syntax = {
   NeogitHunkHeaderHighlight = { fg = z.redwine },
 
   --Noice
-  NoiceCmdlinePopupBorder = { fg = z.green },
-  NoiceCmdlinePopupBorderInput = { fg = z.base0 },
+  NoiceCmdlinePopupBorderCmdline = { fg = z.green },
 }
 
 local async_load_plugin
