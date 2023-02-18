@@ -334,6 +334,7 @@ local plugin_syntax = {
 
   --Noice
   NoiceCmdlinePopupBorder = { fg = z.green },
+  NoiceCmdlinePopupBorderInput = { fg = z.base0 },
 }
 
 local async_load_plugin
