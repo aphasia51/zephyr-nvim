@@ -282,7 +282,7 @@ local plugin_syntax = {
   DiagnosticUnderlineInfo = { undercurl = true, sp = z.blue },
   DiagnosticUnderlineHint = { undercurl = true, sp = z.cyan },
 
-  DiagnosticError = { fg = "#CB4335" },
+  DiagnosticError = { fg = "#BE3455" },
   DiagnosticWarn = { fg = z.orange },
 
   -- nvim-cmp
