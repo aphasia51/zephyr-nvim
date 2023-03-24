@@ -177,7 +177,7 @@ local syntax = {
   DashboardFooter = { fg = z.yellow, bold = true },
   DashboardProjectIcon = { fg = '#7788d4' },
   DashboardProjectTitle = { fg = '#4491D4' },
-  DashboardProjectTitleIcon = { fg = '#f0945d' },
+  DashboardProjectTitleIcon = { fg = '#28B463' },
   DashboardMruIcon = { fg = '#f0945d' },
   DashboardMruTitle = { fg = '#4491D4' },
   DashboardShortCutIcon = { fg = '#69a794' },
