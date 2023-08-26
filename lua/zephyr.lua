@@ -3,56 +3,56 @@
 -- License: MIT
 -- Source: http://github.com/glepnir/z-nvim
 local z = {
-  base0 = "#1B2229",
-  base1 = "#1c1f24",
-  base2 = "#202328",
-  base3 = "#23272e",
-  base4 = "#3f444a",
-  base5 = "#5B6268",
-  base6 = "#73797e",
-  base7 = "#9ca0a4",
-  base8 = "#b1b1b1",
+  base0 = '#1B2229',
+  base1 = '#1c1f24',
+  base2 = '#202328',
+  base3 = '#23272e',
+  base4 = '#3f444a',
+  base5 = '#5B6268',
+  base6 = '#73797e',
+  base7 = '#9ca0a4',
+  base8 = '#b1b1b1',
 
-  text = "#c6d0f5",
-  subtext1 = "#b5bfe2",
-  subtext0 = "#a5adce",
-  overlay2 = "#949cbb",
-  overlay1 = "#838ba7",
-  overlay0 = "#737994",
+  text = '#c6d0f5',
+  subtext1 = '#b5bfe2',
+  subtext0 = '#a5adce',
+  overlay2 = '#949cbb',
+  overlay1 = '#838ba7',
+  overlay0 = '#737994',
 
-  bg = "#262a33",
-  bg1 = "#504945",
-  bg_popup = "#3E4556",
-  bg_highlight = "#2E323C",
-  bg_visual = "#b3deef",
+  bg = '#262a33',
+  bg1 = '#504945',
+  bg_popup = '#3E4556',
+  bg_highlight = '#2E323C',
+  bg_visual = '#b3deef',
 
-  fg = "#bbc2cf",
-  fg_alt = "#5B6268",
+  fg = '#bbc2cf',
+  fg_alt = '#5B6268',
 
-  red = "#e95678",
-  redwine = "#d16d9e",
-  orange = "#FF8700",
-  yellow = "#f7bb3b",
-  lignt_orange = "#fab795",
-  green = "#afd700",
+  red = '#e95678',
+  redwine = '#d16d9e',
+  orange = '#FF8700',
+  yellow = '#f7bb3b',
+  lignt_orange = '#fab795',
+  green = '#afd700',
   -- #a8eb44
-  dark_green = "#98be65",
-  cyan = "#36d0e0",
-  blue = "#61afef",
-  violet = "#CBA6F7",
-  magenta = "#c678dd",
-  teal = "#1abc9c",
-  grey = "#928374",
-  brown = "#c78665",
-  black = "#000000",
-  flamingo = "#EEBEBE",
-  maroon = "#EA999C",
-  peach = "#EF9F76",
-  sky = "#99D1DB",
-  rosewater = "#F2D5CF",
+  dark_green = '#98be65',
+  cyan = '#36d0e0',
+  blue = '#61afef',
+  violet = '#CBA6F7',
+  magenta = '#c678dd',
+  teal = '#1abc9c',
+  grey = '#928374',
+  brown = '#c78665',
+  black = '#000000',
+  flamingo = '#EEBEBE',
+  maroon = '#EA999C',
+  peach = '#EF9F76',
+  sky = '#99D1DB',
+  rosewater = '#F2D5CF',
 
-  bracket = "#80A0C2",
-  none = "NONE",
+  bracket = '#80A0C2',
+  none = 'NONE',
 }
 
 function z.terminal_color()
@@ -112,7 +112,7 @@ local syntax = {
   PmenuSel = { fg = z.base0, bg = z.blue },
   PmenuSelBold = { fg = z.base0, bg = z.blue },
   PmenuSbar = { bg = z.base4 },
-  PmenuThumb = { fg = "#2e2d2b", bg = "#52BE80" },
+  PmenuThumb = { fg = '#2e2d2b', bg = '#52BE80' },
   WildMenu = { fg = z.bg1, bg = z.green },
   StatusLine = { fg = z.base8, bg = z.base2 },
   StatusLineNC = { fg = z.grey, bg = z.base2 },
@@ -181,17 +181,16 @@ local syntax = {
   DashboardMruIcon = { fg = '#f0945d' },
   DashboardMruTitle = { fg = '#4491D4' },
   DashboardShortCutIcon = { fg = '#69a794' },
-
 }
 
 local plugin_syntax = {
-  ["@function"] = { fg = z.cyan },
-  ["@method"] = { fg = z.cyan },
-  ["@keyword.function"] = { fg = z.red },
-  ["@property"] = { fg = z.yellow },
-  ["@type"] = { fg = z.teal },
-  ["@variable"] = { fg = "#f2f2bf" },
-  ["@punctuation.bracket"] = { fg = z.bracket },
+  ['@function'] = { fg = z.cyan },
+  ['@method'] = { fg = z.cyan },
+  ['@keyword.function'] = { fg = z.red },
+  ['@property'] = { fg = z.yellow },
+  ['@type'] = { fg = z.teal },
+  ['@variable'] = { fg = '#f2f2bf' },
+  ['@punctuation.bracket'] = { fg = z.bracket },
 
   vimCommentTitle = { fg = z.grey, bold = true },
   vimLet = { fg = z.orange },
@@ -262,34 +261,34 @@ local plugin_syntax = {
 
   TelescopeBorder = { fg = z.teal },
   TelescopeMultiSelection = { fg = z.teal },
-  TelescopePromptBorder = { fg = "#7D3C98", bg = z.base3 },
-  TelescopePromptNormal = { fg = "#BA4A00" },
-  TelescopePromptTitle = { fg = "#BA4A00" },
-  TelescopePromptPrefix = { fg = "#2E86C1" },
-  TelescopeSelectionCaret = { fg = "#2E86C1" },
-  TelescopePromptCounter = { fg = "#BA4A00" },
-  TelescopePreviewTitle = { fg = "#2E86C1" },
-  TelescopePreviewBorder = { bg = z.base3, fg = z.base3},
-  TelescopeResultsTitle = { fg = "#8bba7f" },
+  TelescopePromptBorder = { fg = '#7D3C98', bg = z.base3 },
+  TelescopePromptNormal = { fg = '#BA4A00' },
+  TelescopePromptTitle = { fg = '#BA4A00' },
+  TelescopePromptPrefix = { fg = '#2E86C1' },
+  TelescopeSelectionCaret = { fg = z.teal },
+  TelescopePromptCounter = { fg = '#BA4A00' },
+  TelescopePreviewTitle = { fg = '#2E86C1' },
+  TelescopePreviewBorder = { bg = z.base3, fg = z.base3 },
+  TelescopeResultsTitle = { fg = '#8bba7f' },
   TelescopeResultsBorder = { bg = z.base3, fg = z.base3 },
-  TelescopeMatching = { fg = "#F39C12" },
+  TelescopeMatching = { fg = '#F39C12' },
   TelescopeSelection = { bg = z.base4, bold = true },
 
   LspReferenceRead = { bg = z.bg_highlight, bold = true },
   LspReferenceText = { bg = z.bg_highlight, bold = true },
   LspReferenceWrite = { bg = z.bg_highlight, bold = true },
 
-  DiagnosticVirtualTextError = { fg = z.red },
-  DiagnosticVirtualTextWarn = { fg = z.orange },
-  DiagnosticVirtualTextInfo = { fg = z.blue },
-  DiagnosticVirtualTextHint = { fg = z.cyan },
+  DiagnosticVirtualTextError = { bg = '#362c3d', fg = z.red },
+  DiagnosticVirtualTextWarn = { bg = '#373640', fg = z.orange },
+  DiagnosticVirtualTextInfo = { bg = '#22374b', fg = z.blue },
+  DiagnosticVirtualTextHint = { bg = '#233745', fg = z.cyan },
 
   DiagnosticUnderlineError = { undercurl = true, sp = z.red },
   DiagnosticUnderlineWarn = { undercurl = true, sp = z.yellow },
   DiagnosticUnderlineInfo = { undercurl = true, sp = z.blue },
   DiagnosticUnderlineHint = { undercurl = true, sp = z.cyan },
 
-  DiagnosticError = { fg = "#BE3455" },
+  DiagnosticError = { fg = '#BE3455' },
   DiagnosticWarn = { fg = z.orange },
 
   -- nvim-cmp
@@ -297,7 +296,7 @@ local plugin_syntax = {
   CmpItemKind = { fg = z.blue },
   CmpItemMenu = { fg = z.violet },
   CmpPmenuBorder = { fg = z.blue },
-  CmpItemAbbrMatch = { fg = "#A6E22E" },
+  CmpItemAbbrMatch = { fg = '#A6E22E' },
   CmpItemAbbrMatchFuzzy = { fg = z.text },
 
   CmpDocumentation = { fg = z.blue, bg = z.bg_highlight },
@@ -341,6 +340,10 @@ local plugin_syntax = {
 
   --Noice
   NoiceCmdlinePopupBorderCmdline = { fg = z.green },
+
+  -- Flash
+  FlashMatch = { fg = z.green },
+  FlashLabel = { fg = z.red },
 }
 
 local async_load_plugin
@@ -358,11 +361,11 @@ async_load_plugin = vim.loop.new_async(vim.schedule_wrap(function()
 end))
 
 function z.colorscheme()
-  vim.api.nvim_command("hi clear")
+  vim.api.nvim_command('hi clear')
 
-  vim.o.background = "dark"
+  vim.o.background = 'dark'
   vim.o.termguicolors = true
-  vim.g.colors_name = "zephyr"
+  vim.g.colors_name = 'zephyr'
   set_hl(syntax)
   async_load_plugin:send()
 end
